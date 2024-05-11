@@ -169,12 +169,10 @@ return {
         -- tsserver = {},
         --
 
-        -- terraform = {
-        --   cmd = 'terraform-ls',
-        --   args = 'serve',
-        --   filetypes = { 'terraform', 'tf' },
-        --   settings = {},
-        -- },
+        terraformls = {
+          filetypes = { 'terraform', 'tf' },
+          settings = {},
+        },
 
         lua_ls = {
           -- cmd = {...},
