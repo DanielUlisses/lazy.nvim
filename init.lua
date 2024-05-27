@@ -146,9 +146,9 @@ vim.opt.list = false
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 -- vim tabstops defined
-vim.api.nvim_set_option('tabstop', 2)
-vim.api.nvim_set_option('softtabstop', 2)
-vim.api.nvim_set_option('shiftwidth', 2)
+vim.api.nvim_set_option_value('tabstop', 2, {})
+vim.api.nvim_set_option_value('softtabstop', 2, {})
+vim.api.nvim_set_option_value('shiftwidth', 2, {})
 
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
